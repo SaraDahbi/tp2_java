@@ -8,4 +8,7 @@ public class File {
         this.size = size;
         this.type = type;
     }
+    public void afficher(){
+        System.out.println("Name : " + name);
+    }
 }
